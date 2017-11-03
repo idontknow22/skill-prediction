@@ -1,23 +1,15 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-ff69b4.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5MTKARBK2CNG8&lc=US&item_name=Pinkie%27s%20TERA%20Mods&currency_code=USD)
 
-Simulates skills client-side, eliminating ping-based delays and animation lock.
+The power of Sp, with almost everything commented, so only fast fire skills and lock ons are affected(I guess it also has cooldowns too, dunno) 
 
-Wiki/Race Specific Skill animation time and distance status: https://github.com/Leyki/skill-prediction/wiki
+Force Clip is disabled by default, probably it won't matter anyway i think tho
 
 ## Current supported class skills
-* Lancer: All besides Retaliate
-* Brawler: Most besides Rampage, Divine Wrath, Meat Grinder, High Kick, Retaliate
-* Warrior: All besides Backstab, Smoke Flanker, Retaliate
-* Slayer: All besides Backstab, Retaliate
-* Berserker: All besides Vampiric Blow which somewhat works if uncommented
-* Sorcerer: All besides Stone Skin, Retaliate
-* Archer: All besides Snare, Retaliate
-* Reaper: All besides Cable Step, Soul Reversal, Retaliate
-* Gunner: Most skills besides Retaliate
-* Ninja: All besides Retaliate
-* Valkyrie: All besides Retaliate
-* Priest: All besides Retaliate
-* Mystic: All
+* Sorcerer: All Lock ons
+* Archer: Arrow Volley, Rapid Fire
+* Gunner: Burst fire!
+* Priest: All Lock ons
+* Mystic: All Lock ons
 
 ## Changelog
 ### 2.1.0

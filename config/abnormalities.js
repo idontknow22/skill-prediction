@@ -1,8 +1,8 @@
 module.exports = {
-	/* Slayer */
+	/* Slayer 
 	23220: true, // Distant Blade & ICB (linked)
 
-	/* Brawler */
+	/* Brawler 
 	10153060: true, // Punch (linked)
 	10153001: true, // Punch > Counter 1 (linked)
 	10153002: true, // Punch > Counter 2 (linked)
@@ -11,7 +11,7 @@ module.exports = {
 	10153005: true, // Counter (linked)
 	10153006: true, // Counter (linked)
 
-	/* Ninja */
+	/* Ninja 
 	// Combo Attack
 	10154000: true,
 	10154001: true,
@@ -19,5 +19,5 @@ module.exports = {
 	10154003: true,
 	10154004: true,
 	10154005: true,
-	10154006: true
+	10154006: true*/
 }

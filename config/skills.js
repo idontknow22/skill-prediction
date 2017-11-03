@@ -18,7 +18,7 @@
 */
 
 module.exports = {
-	0: { // Warrior
+	/*0: { // Warrior
 		1: { // Combo Attack
 			'*': { noInterrupt: [1, 32] },
 			0: {
@@ -186,7 +186,7 @@ module.exports = {
 				noInterrupt: [32],
 				noRetry: true
 			}
-		},*/
+		},
 		16: { // Charging Slash
 			0: {
 				type: 'dash',
@@ -1225,7 +1225,7 @@ module.exports = {
 				noInterrupt: [2, 4, 24, 25, 30]
 			},
             14: { distance: 72.78 }
-		},*/
+		},
 		16: { // Fearsome Shout
 		    0: {
 				fixedSpeed: 1,
@@ -1408,9 +1408,9 @@ module.exports = {
 				distance: 134.1
 			}
 		}
-	},
+	},*/
 	4: { // Sorcerer
-		1: { // Fireball
+		/*1: { // Fireball
 			0: { length: 730 }
 		},
 		2: { // Frost Sphere
@@ -1556,7 +1556,7 @@ module.exports = {
 				distance: -187.5,
 				forceClip: true
 			}
-		},
+		},*/
 		19: { // Mana Siphon
 			'*': {
 				type: 'chargeCast',
@@ -1642,7 +1642,7 @@ module.exports = {
 				length: 700
 			}
 		},
-		26: { // Teleport Jaunt
+		/*26: { // Teleport Jaunt
 			0: {
 				type: 'teleport',
 				length: [200, 260],
@@ -1711,12 +1711,12 @@ module.exports = {
 		},
 		34: { // Mana Boost
 			0: { length: 750 }
-		}
+		}*/
 	},
 	5: { // Archer
-		1: { // Arrow
+		/*1: { // Arrow
 			0: { length: 400 }
-		},
+		},*/
 		2: { // Arrow Volley
 			'*': { noRetry: true },
 			0: {
@@ -1733,7 +1733,7 @@ module.exports = {
 				noInterrupt: [22]
 			}
 		},
-		3: { // Radiant Arrow
+		/*3: { // Radiant Arrow
 			'*': {
 				type: 'chargeCast',
 				length: 1760
@@ -1831,7 +1831,7 @@ module.exports = {
 				length: [2950, 54525, 1675],
 				distance: [-114.05, 0, 0]
 			}
-		},
+		},*/
 		8: { // Rapid Fire
 			'*': { 
 				noRetry: true,
@@ -1848,7 +1848,7 @@ module.exports = {
 			5: { length: 800 },
 			6: { length: 1233 }
 		},
-		9: { // Slow Trap
+		/*9: { // Slow Trap
 			0: { length: 1150 }
 		},
 		10: { // Stunning Trap
@@ -1957,10 +1957,10 @@ module.exports = {
 					501323: { chain: 6 }
 				}
 			}
-		}
+		}*/
 	},
 	6: { // Priest
-		1: { // Divine Radiance
+		/*1: { // Divine Radiance
 			0: { length: 625 }, // Elin/M.Casta
 			1: { length: 650 }, //
 			2: { length: 675 }, //
@@ -2030,7 +2030,7 @@ module.exports = {
 		},
 		18: { // Heal Thyself
 			0: { length: 1250 } // Elin/M.Casta
-		},
+		},*/
 		19: { // Focus Heal
 			'*': { noRetry: true },
 			0: {
@@ -2043,7 +2043,7 @@ module.exports = {
 				length: 1940 // Elin/M.Casta
 			}
 		},
-		22: { // Kaia's Shield
+		/*22: { // Kaia's Shield
 			0: { length: 650 } // Elin/M.Casta
 		},
 		23: { // Blessing of Balder
@@ -2068,7 +2068,7 @@ module.exports = {
 				}
 			},
 			30: { length: 1040 } // Elin/M.Casta
-		},
+		},*/
 		28: { // Mana Charge
 			'*': {
 				type: 'chargeCast',
@@ -2086,11 +2086,11 @@ module.exports = {
 			11: { noInterrupt: [26, 27, 38] },
 			12: { noInterrupt: [26, 27, 38] }
 		},
-		29: { // Triple Nemesis
+		/*29: { // Triple Nemesis
 			0: { length: 800 }, // Elin/M.Casta
 			1: { length: 800 }, // Elin/M.Casta
 			2: { length: 1250 } // Elin/M.Casta
-		},
+		},*/
 		30: { // Plague of Exhaustion
 			'*': { noRetry: true },
 			0: {
@@ -2104,7 +2104,7 @@ module.exports = {
 				length: 1430 // Elin/M.Casta
 			}
 		},
-		31: { // Guardian Sanctuary
+		/*31: { // Guardian Sanctuary
 			0: {
 				fixedSpeed: 1,
 				length: 700 // Elin/M.Casta
@@ -2115,7 +2115,7 @@ module.exports = {
 				fixedSpeed: 1,
 				length: [1300, 900] // Elin/M.Casta
 			}
-		},
+		},*/
 		33: { // Ishara's Lullaby
 			'*': { noRetry: true },
 			0: {
@@ -2130,9 +2130,9 @@ module.exports = {
 				length: [300, 1430] // Elin/M.Casta
 			}
 		},
-		34: { // Restorative Burst
+		/*34: { // Restorative Burst
 			0: { length: 1430 } // Elin/M.Casta
-		},
+		},*/
 		35: { // Energy Stars
 			'*': { noRetry: true },
 			0: {
@@ -2162,7 +2162,7 @@ module.exports = {
 				noInterrupt: ['37-10']
 			}
 		},
-		38: { // Backstep
+		/*38: { // Backstep
 			0: {
 				length: 665, // Elin/M.Casta
 				distance: -200, // Elin/M.Casta
@@ -2180,7 +2180,7 @@ module.exports = {
 		},
 		40: { // Zenobia's Vortex
 			0: { length: 1080 } // Elin/M.Casta
-		},
+		},*/
 		41: { // Divine Intervention
 			'*': { noRetry: true },
 			0: {
@@ -2196,7 +2196,7 @@ module.exports = {
 		}
 	},
 	7: { // Mystic
-		1: { // Sharan Bolt
+		/*1: { // Sharan Bolt
 			0: { length: 675 },
 			1: { length: 675 },
 			2: { length: 675 },
@@ -2213,7 +2213,7 @@ module.exports = {
 		},
 		4: { // Ancient Binding
 			0: { length: 1280 }
-		},
+		},*/
 		5: { // Titanic Favor
 			'*': { noRetry: true },
 			0: {
@@ -2226,7 +2226,7 @@ module.exports = {
 				length: 1940
 			}
 		},
-		6: { // Shara's Lash
+		/*6: { // Shara's Lash
 			0: { length: 1300 }
 		},
 		8: { // Metamorphic Blast
@@ -2239,7 +2239,7 @@ module.exports = {
 				}
 			},
 			30: { length: 820 }
-		},
+		},*/
 		9: { // Arun's Cleansing
 			'*': { noRetry: true },
 			0: {
@@ -2252,7 +2252,7 @@ module.exports = {
 				length: 790
 			}
 		},
-		10: { // Resurrect
+		/*10: { // Resurrect
 			0: {
 				length: 8080, // 8050
 				glyphs: {
@@ -2269,7 +2269,7 @@ module.exports = {
 		},
 		11: { // Summon: Party
 			0: { length: 4400 }
-		},
+		},*/
 		12: { // Vow of Rebirth
 			'*': { noRetry: true },
 			0: {
@@ -2283,7 +2283,7 @@ module.exports = {
 				length: 1940
 			}
 		},
-		13: { // Aura of the Merciless
+		/*13: { // Aura of the Merciless
 			'*': { length: 1300 },
 			0: true,
 			50: true
@@ -2364,7 +2364,7 @@ module.exports = {
 				}
 			},
 			30: { length: 1100 }
-		},
+		},*/
 		24: { // Volley of Curses
 			'*': { noRetry: true },
 			0: {
@@ -2378,7 +2378,7 @@ module.exports = {
 				length: [525, 675]
 			}
 		},
-		25: { // Thrall of Protection
+		/*25: { // Thrall of Protection
 			0: {
 				fixedSpeed: 1,
 				length: [1000, 1720]
@@ -2389,7 +2389,7 @@ module.exports = {
 				fixedSpeed: 1,
 				length: [275, 575]
 			}
-		},
+		},*/
 		28: { // Sonorous Dreams
 			'*': { noRetry: true },
 			0: {
@@ -2403,10 +2403,10 @@ module.exports = {
 				length: 1430
 			}
 		},
-		29: { // Regression
+		/*29: { // Regression
 			fixedSpeed: 1,
 			length: [500, 700]
-		},
+		},*/
 		30: { // Curse of Exhaustion
 			'*': { noRetry: true },
 			0: {
@@ -2446,7 +2446,7 @@ module.exports = {
 				length: 1430
 			}
 		},
-		33: { // Thrall of Vengeance
+		/*33: { // Thrall of Vengeance
 			0: {
 				fixedSpeed: 1,
 				length: [275, 575]
@@ -2472,7 +2472,7 @@ module.exports = {
 		},
 		37: { // Warding Totem
 			0: { length: 1900 }
-		},
+		},*/
 		41: { // Contagion
 			'*': { noRetry: true },
 			0: {
@@ -2485,7 +2485,7 @@ module.exports = {
 				length: 1000
 			}
 		},
-		42: { // Boomerang Pulse
+		/*42: { // Boomerang Pulse
 			0: {
 				length: 550, // 530, 550, 575
 				noInterrupt: [42]
@@ -2493,9 +2493,9 @@ module.exports = {
 		},
 		43: { // Release																																																																							
 			0: { length: [400, 575] }
-		}
+		}*/
 	},
-	8: { // Reaper
+	/*8: { // Reaper
 		'*' : { consumeAbnormal: [10151020, 10151021, 10151022, 10141023] },
 		1: { // Spiral Barrage
 			'*': {
@@ -2826,7 +2826,7 @@ module.exports = {
 				length: 1610,
 				noRetry: true
 			}
-		},*/
+		},
 		15: { // Retribution
 			0: {
 				fixedSpeed: 1,
@@ -2867,9 +2867,9 @@ module.exports = {
 			0: true,
 			30: true
 		}
-	},
+	},*/
 	9: { // Gunner
-		1: { // Blast
+		/*1: { // Blast
 			'*': {
 				fixedSpeed: 1,
 				noRetry: true,
@@ -2957,7 +2957,7 @@ module.exports = {
 				distance: -198.53
 			},
 			30: { noRetry: true }
-		},
+		},*/
 		5: { // Burst Fire
 			0: { length: 850 },
 			1: {
@@ -2970,7 +2970,7 @@ module.exports = {
 				}
 			}
 		},
-		6: { // Time Bomb
+		/*6: { // Time Bomb
 			'*': {
 				fixedSpeed: 1,
 				length: 1000
@@ -3127,9 +3127,9 @@ module.exports = {
 				distance: 172.5,
 				forceClip: true
 			}
-		}
+		}*/
 	},
-	10: { // Brawler
+	/*10: { // Brawler
 		1: { // Punch
 			'*': {
 				length: 1575,
@@ -3218,7 +3218,7 @@ module.exports = {
 					10153062: { chain: 2 },
 					10153063: { chain: 3 },
 					10153064: { chain: 4 }
-				},*/
+				},
 				chains: {
 					'1-0': 1,
 					'1-1': 2,
@@ -3240,7 +3240,7 @@ module.exports = {
 				length: [,,],
 				distance: [,,]
 			}
-		},*/
+		},
 		4: { // Ground Pound
 			'*': { length: 3225 },
 			0: true,
@@ -4385,7 +4385,7 @@ module.exports = {
 				length: 1630,
 				noRetry: true 
 			}
-		},*/
+		},
 		19: { // Reclamation
 			'*': {
 				length: 1525,
@@ -4426,5 +4426,5 @@ module.exports = {
 				requiredBuff: 10155201
 			}
 		}
-	}
+	}*/
 }

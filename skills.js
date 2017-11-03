@@ -10,7 +10,7 @@ const JITTER_COMPENSATION	= true,
 	SERVER_TIMEOUT			= 200,		/*	This number is added to your maximum ping + skill retry period to set the failure threshold for skills.
 											If animations are being cancelled while damage is still applied, increase this number.
 										*/
-	FORCE_CLIP_STRICT		= true,		/*	Set this to false for smoother, less accurate iframing near walls.
+	FORCE_CLIP_STRICT		= false,		/*	Set this to false for smoother, less accurate iframing near walls.
 											Warning: Will cause occasional clipping through gates when disabled. Do NOT abuse this.
 										*/
 	DEFEND_SUCCESS_STRICT	= true,		//	Set this to false to see Brawler's Perfect Block icon at very high ping (warning: may crash client).
