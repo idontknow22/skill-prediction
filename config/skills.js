@@ -235,7 +235,7 @@ module.exports = {
 					9692002: { chain: 6 }
 				},
 				
-				noRetry: true,
+				noRetry: false,
 				noInterrupt: [32]	
 			},
 			1: { length: 825 }
@@ -2426,7 +2426,7 @@ module.exports = {
 		},
 		8: { // Rapid Fire
 			'*': { 
-				noRetry: true,
+				noRetry: false,
 				noInterrupt: [22] // this actually doesn't do anything
 			},
 			0: { 
