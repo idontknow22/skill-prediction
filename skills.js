@@ -26,10 +26,6 @@ const {protocol, sysmsg} = require('tera-data-parser'),
 	skills = require('./config/skills'),
 	timeouts = require('./config/serverTimeouts'),
 	Command = require('command'),
-	silence = require('./config/silence').reduce((map, value) => { // Convert array to object for fast lookup
-		map[value] = true
-		return map
-	}, {})
 
 const INTERRUPT_TYPES = {
 	'retaliate': 5,
