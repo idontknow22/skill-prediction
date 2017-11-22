@@ -25,7 +25,7 @@ const {protocol, sysmsg} = require('tera-data-parser'),
 	AbnormalityPrediction = require('./abnormalities'),
 	skills = require('./config/skills'),
 	timeouts = require('./config/serverTimeouts'),
-	Command = require('command'),
+	Command = require('command')
 
 const INTERRUPT_TYPES = {
 	'retaliate': 5,
